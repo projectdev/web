@@ -1,8 +1,21 @@
 ### Comandos Github
     1.- Configurar
+    	git config --global user.name  "user_name"
+	git config --global user.email "mail_you_account"
     2.- Clonar 
+    	Clonar donde tengamos el XAMP,WAMP... etc, en caso Linux en /var/www/
+    	git clone https://github.com/projectdev/web.git
+    3.- Actualizar cambios
+    	Antes de subir algo siempre hacer 
+    	git pull 
     3.- subir 
-    4.-
+    	Si modificaste algo 
+    	git add nomber archivo ó 
+    	git add *
+    	git commit -m 'agrega comentario a lo q subas'
+    	git push origin master        // Para subir las  modificaciones
+ Dentro de .gitignore se pone lo q no quieran q se suba al github
+ Mas comandos http://www.maefloresta.com/portal/es/git.es
 ### Step 4: Configure Database
 
 Now that you have the environment configured, you need to create a database configuration for it. Copy the file ***app/config/database.php*** in ***app/config/local*** and edit it to match your local database settings. You can remove all the parts that you have not changed as this configuration file will be loaded over the initial one.

@@ -1,7 +1,7 @@
 ### Comandos Github
     1.- Configurar
     	git config --global user.name  "user_name"
-	git config --global user.email "mail_you_account"
+	git config --global user.email "mail_your_account"
     2.- Clonar 
     	Clonar donde tengamos el XAMP,WAMP... etc, en caso Linux en /var/www/
     	git clone https://github.com/projectdev/web.git
@@ -11,7 +11,7 @@
     3.- subir 
     	Si modificaste algo 
     	git add nomber archivo ó 
-    	git add *
+    	git add .  para agregar el directorio actual
     	git commit -m 'agrega comentario a lo q subas'
     	git push origin master        // Para subir las  modificaciones
  Dentro de .gitignore se pone lo q no quieran q se suba al github

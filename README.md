@@ -31,6 +31,8 @@ Mas comandos http://www.maefloresta.com/portal/es/git.es
 mysql -h localhost -utu_usuario -p
 create database laravel;
 use laravel;
+1.-
+
 CREATE TABLE `usuarios` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(255) NOT NULL,
@@ -40,7 +42,7 @@ CREATE TABLE `usuarios` (
   PRIMARY KEY (`id`)
  
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
-
+2.-
 INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `created_at`, `updated_at`) VALUES
 (1, 'sam', 'loza', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (2, 'zam', 'zas', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),

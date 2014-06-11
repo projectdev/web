@@ -54,6 +54,12 @@ INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `created_at`, `updated_at`) 
 Modificar la BD segun sus datos, mas abajo hay una descripcion.
 
 Si no pueden hacer esto mediante phpmyadmin sudo apt-get install phpmyadmin
+```
+localhost:800/laravel/public/test
+localhost:800/laravel/public/usuarios
+localhost/laravel/public/test 
+localhost/public/usuarios 
+```
 
 ### Step 4: Configure Database
 Now that you have the environment configured, you need to create a database configuration for it. Copy the file ***app/config/database.php*** in ***app/config/local*** and edit it to match your local database settings. You can remove all the parts that you have not changed as this configuration file will be loaded over the initial one.

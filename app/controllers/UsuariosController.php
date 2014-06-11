@@ -18,7 +18,8 @@ class UsuariosController extends BaseController {
     }
     public function mostrar(){
         $usuarios = Usuario::all();
-        return $usuarios;
+       return View::make('usuarios.lista', array('usuarios' => $usuarios));
+
     }
  
 }

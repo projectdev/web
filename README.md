@@ -25,7 +25,8 @@ Mas comandos http://www.maefloresta.com/portal/es/git.es
     1.- Descargar composer 
         curl -s http://getcomposer.org/installer | php
         php composer.phar install
-    2.- Alternativa el siguiente link solo es 4mb https://db.tt/BoObzyot
+    2.- Alternativa el siguiente link solo es 4mb https://db.tt/BoObzyot  
+        //Nota fijarse no sea vendor/vendor/.... la carpeta que sea descomprimida del link
         Descomprimirlo /var/www/laravel en caso linux 
 
 ```
